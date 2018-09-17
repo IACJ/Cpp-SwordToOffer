@@ -11,3 +11,5 @@ add_executable(TreeDepth TreeDepth/myTry.cpp)
 add_executable(ArraySearch ArraySaerch/myTry.cpp)
 
 add_executable(ReplaceSpace ReplaceSpace/myTry.cpp)
+
+add_executable(PrintLinkedList PrintLinkedList/myTry.cpp)

@@ -5,6 +5,7 @@
       <config projectName="Cpp_SwordToOffer" targetName="TreeDepth" />
       <config projectName="Cpp_SwordToOffer" targetName="test" />
       <config projectName="Cpp_SwordToOffer" targetName="ReplaceSpace" />
+      <config projectName="Cpp_SwordToOffer" targetName="PrintLinkedList" />
       <config projectName="Cpp_SwordToOffer" targetName="ArraySearch" />
     </generated>
   </component>
@@ -15,7 +16,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41131fc6-d68e-4bb3-a725-15837c86253e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TreeDepth.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TreeDepth.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/replaceSpace.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/replaceSpace.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/test.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cpp_SwordToOffer.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cpp_SwordToOffer.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,40 +41,41 @@
     <session id="-353408050">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="6" />
-          <entry key="md" value="3" />
-          <entry key="txt" value="2" />
+          <entry key="cpp" value="7" />
+          <entry key="md" value="4" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CMakeLists.txt" value="2" />
-          <entry key="Markdown" value="2" />
-          <entry key="ObjectiveC" value="6" />
+          <entry key="CMakeLists.txt" value="3" />
+          <entry key="Markdown" value="3" />
+          <entry key="ObjectiveC" value="7" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="1049" />
-          <entry key="md" value="34" />
-          <entry key="txt" value="49" />
+          <entry key="cpp" value="1253" />
+          <entry key="md" value="70" />
+          <entry key="txt" value="53" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CMakeLists.txt" value="49" />
-          <entry key="Markdown" value="34" />
-          <entry key="ObjectiveC" value="1049" />
+          <entry key="CMakeLists.txt" value="53" />
+          <entry key="Markdown" value="70" />
+          <entry key="ObjectiveC" value="1253" />
         </counts>
       </usages-collector>
     </session>
@@ -70,10 +83,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReplaceSpace/myTry.cpp">
+        <entry file="file://$PROJECT_DIR$/PrintLinkedList/myTry.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="355">
+              <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+              <folding>
+                <element signature="e#45#64#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="210">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -91,8 +107,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
+              <first_editor relative-caret-position="60">
+                <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,10 +133,11 @@
         <option value="$PROJECT_DIR$/ 二叉树的深度/TreeDepth.cpp" />
         <option value="$PROJECT_DIR$/TreeDepth/myTry.cpp" />
         <option value="$PROJECT_DIR$/ArraySaerch/myTry.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/ReplaceSpace.cpp" />
         <option value="$PROJECT_DIR$/ReplaceSpace/myTry.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/PrintLinkedList/myTry.cpp" />
       </list>
     </option>
   </component>
@@ -130,10 +147,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="710" />
+    <option name="height" value="707" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -143,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,20 +167,11 @@
               <item name="Cpp_SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cpp-SwordToOffer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Cpp_SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cpp-SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="ReplaceSpace" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Cpp_SwordToOffer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Cpp-SwordToOffer" type="462c0819:PsiDirectoryNode" />
-              <item name="TreeDepth" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -174,6 +181,9 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PrintLinkedList" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ReplaceSpace" />
     </key>
@@ -190,13 +200,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReplaceSpace">
+  <component name="RunManager" selected="Application.PrintLinkedList">
     <configuration name="ArraySearch" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_SwordToOffer" TARGET_NAME="ArraySearch" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_SwordToOffer" RUN_TARGET_NAME="ArraySearch">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintLinkedList" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cpp_SwordToOffer" TARGET_NAME="PrintLinkedList" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cpp_SwordToOffer" RUN_TARGET_NAME="PrintLinkedList">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -219,6 +234,7 @@
     <list>
       <item itemvalue="Application.Build All" />
       <item itemvalue="Application.ArraySearch" />
+      <item itemvalue="Application.PrintLinkedList" />
       <item itemvalue="Application.ReplaceSpace" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.TreeDepth" />
@@ -236,33 +252,34 @@
       <updated>1535972966722</updated>
       <workItem from="1535972971051" duration="2226000" />
       <workItem from="1536594270819" duration="1314000" />
-      <workItem from="1536769765250" duration="2181000" />
+      <workItem from="1536769765250" duration="2282000" />
+      <workItem from="1537187989154" duration="593000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5721000" />
+    <option name="totallyTimeSpent" value="6415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="710" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="707" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25767368" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26171243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50807756" visible="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50646204" visible="true" weight="0.3284553" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49757674" weight="0.39967638" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48626816" weight="0.32847896" />
+      <window_info anchor="bottom" id="Messages" order="8" sideWeight="0.48465267" weight="0.3284553" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32847896" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49192247" side_tool="true" visible="true" weight="0.32847896" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.49353796" side_tool="true" visible="true" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.4983845" weight="0.32847896" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.49757674" weight="0.3284553" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,23 +313,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="39" column="29" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="29" />
-          <folding>
-            <element signature="e#47#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ReplaceSpace/myTry.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrintLinkedList/myTry.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="40" column="13" lean-forward="true" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -320,8 +344,8 @@
       <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="5" selection-start-column="5" selection-end-column="5" />
+          <first_editor relative-caret-position="60">
+            <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>

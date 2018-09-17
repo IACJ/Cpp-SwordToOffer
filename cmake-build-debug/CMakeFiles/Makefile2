@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-d
 CMakeFiles/TreeDepth.dir/all:
 	$(MAKE) -f CMakeFiles/TreeDepth.dir/build.make CMakeFiles/TreeDepth.dir/depend
 	$(MAKE) -f CMakeFiles/TreeDepth.dir/build.make CMakeFiles/TreeDepth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target TreeDepth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target TreeDepth"
 .PHONY : CMakeFiles/TreeDepth.dir/all
 
 # Include target in all.
@@ -139,13 +139,50 @@ clean: CMakeFiles/ArraySearch.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/PrintLinkedList.dir
+
+# All Build rule for target.
+CMakeFiles/PrintLinkedList.dir/all:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/depend
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target PrintLinkedList"
+.PHONY : CMakeFiles/PrintLinkedList.dir/all
+
+# Include target in all.
+all: CMakeFiles/PrintLinkedList.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PrintLinkedList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/PrintLinkedList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/PrintLinkedList.dir/rule
+
+# Convenience name for target.
+PrintLinkedList: CMakeFiles/PrintLinkedList.dir/rule
+
+.PHONY : PrintLinkedList
+
+# clean rule for target.
+CMakeFiles/PrintLinkedList.dir/clean:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/clean
+.PHONY : CMakeFiles/PrintLinkedList.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/PrintLinkedList.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/ReplaceSpace.dir
 
 # All Build rule for target.
 CMakeFiles/ReplaceSpace.dir/all:
 	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/depend
 	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target ReplaceSpace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=5,6 "Built target ReplaceSpace"
 .PHONY : CMakeFiles/ReplaceSpace.dir/all
 
 # Include target in all.
@@ -182,7 +219,7 @@ clean: CMakeFiles/ReplaceSpace.dir/clean
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.

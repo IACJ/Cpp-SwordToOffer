@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/PrintLinkedList/myTry.cpp
+iostream
+-
+vector
+-
+stack
+-
+

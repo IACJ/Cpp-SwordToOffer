@@ -137,6 +137,19 @@ ArraySearch/fast:
 .PHONY : ArraySearch/fast
 
 #=============================================================================
+# Target rules for targets named PrintLinkedList
+
+# Build rule for target.
+PrintLinkedList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PrintLinkedList
+.PHONY : PrintLinkedList
+
+# fast build rule for target.
+PrintLinkedList/fast:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/build
+.PHONY : PrintLinkedList/fast
+
+#=============================================================================
 # Target rules for targets named ReplaceSpace
 
 # Build rule for target.
@@ -188,6 +201,33 @@ ArraySaerch/myTry.s: ArraySaerch/myTry.cpp.s
 ArraySaerch/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/ArraySearch.dir/build.make CMakeFiles/ArraySearch.dir/ArraySaerch/myTry.cpp.s
 .PHONY : ArraySaerch/myTry.cpp.s
+
+PrintLinkedList/myTry.o: PrintLinkedList/myTry.cpp.o
+
+.PHONY : PrintLinkedList/myTry.o
+
+# target to build an object file
+PrintLinkedList/myTry.cpp.o:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/PrintLinkedList/myTry.cpp.o
+.PHONY : PrintLinkedList/myTry.cpp.o
+
+PrintLinkedList/myTry.i: PrintLinkedList/myTry.cpp.i
+
+.PHONY : PrintLinkedList/myTry.i
+
+# target to preprocess a source file
+PrintLinkedList/myTry.cpp.i:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/PrintLinkedList/myTry.cpp.i
+.PHONY : PrintLinkedList/myTry.cpp.i
+
+PrintLinkedList/myTry.s: PrintLinkedList/myTry.cpp.s
+
+.PHONY : PrintLinkedList/myTry.s
+
+# target to generate assembly for a file
+PrintLinkedList/myTry.cpp.s:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/PrintLinkedList/myTry.cpp.s
+.PHONY : PrintLinkedList/myTry.cpp.s
 
 ReplaceSpace/myTry.o: ReplaceSpace/myTry.cpp.o
 
@@ -280,11 +320,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... TreeDepth"
 	@echo "... ArraySearch"
+	@echo "... PrintLinkedList"
 	@echo "... ReplaceSpace"
 	@echo "... test"
 	@echo "... ArraySaerch/myTry.o"
 	@echo "... ArraySaerch/myTry.i"
 	@echo "... ArraySaerch/myTry.s"
+	@echo "... PrintLinkedList/myTry.o"
+	@echo "... PrintLinkedList/myTry.i"
+	@echo "... PrintLinkedList/myTry.s"
 	@echo "... ReplaceSpace/myTry.o"
 	@echo "... ReplaceSpace/myTry.i"
 	@echo "... ReplaceSpace/myTry.s"
