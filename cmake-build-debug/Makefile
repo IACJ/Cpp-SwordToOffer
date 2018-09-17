@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named ReBuildBinaryTree
+
+# Build rule for target.
+ReBuildBinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReBuildBinaryTree
+.PHONY : ReBuildBinaryTree
+
+# fast build rule for target.
+ReBuildBinaryTree/fast:
+	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/build
+.PHONY : ReBuildBinaryTree/fast
+
+#=============================================================================
 # Target rules for targets named TreeDepth
 
 # Build rule for target.
@@ -229,6 +242,33 @@ PrintLinkedList/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/PrintLinkedList/myTry.cpp.s
 .PHONY : PrintLinkedList/myTry.cpp.s
 
+ReBuildBinaryTree/myTry.o: ReBuildBinaryTree/myTry.cpp.o
+
+.PHONY : ReBuildBinaryTree/myTry.o
+
+# target to build an object file
+ReBuildBinaryTree/myTry.cpp.o:
+	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/ReBuildBinaryTree/myTry.cpp.o
+.PHONY : ReBuildBinaryTree/myTry.cpp.o
+
+ReBuildBinaryTree/myTry.i: ReBuildBinaryTree/myTry.cpp.i
+
+.PHONY : ReBuildBinaryTree/myTry.i
+
+# target to preprocess a source file
+ReBuildBinaryTree/myTry.cpp.i:
+	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/ReBuildBinaryTree/myTry.cpp.i
+.PHONY : ReBuildBinaryTree/myTry.cpp.i
+
+ReBuildBinaryTree/myTry.s: ReBuildBinaryTree/myTry.cpp.s
+
+.PHONY : ReBuildBinaryTree/myTry.s
+
+# target to generate assembly for a file
+ReBuildBinaryTree/myTry.cpp.s:
+	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/ReBuildBinaryTree/myTry.cpp.s
+.PHONY : ReBuildBinaryTree/myTry.cpp.s
+
 ReplaceSpace/myTry.o: ReplaceSpace/myTry.cpp.o
 
 .PHONY : ReplaceSpace/myTry.o
@@ -318,6 +358,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... ReBuildBinaryTree"
 	@echo "... TreeDepth"
 	@echo "... ArraySearch"
 	@echo "... PrintLinkedList"
@@ -329,6 +370,9 @@ help:
 	@echo "... PrintLinkedList/myTry.o"
 	@echo "... PrintLinkedList/myTry.i"
 	@echo "... PrintLinkedList/myTry.s"
+	@echo "... ReBuildBinaryTree/myTry.o"
+	@echo "... ReBuildBinaryTree/myTry.i"
+	@echo "... ReBuildBinaryTree/myTry.s"
 	@echo "... ReplaceSpace/myTry.o"
 	@echo "... ReplaceSpace/myTry.i"
 	@echo "... ReplaceSpace/myTry.s"
