@@ -176,6 +176,19 @@ ReplaceSpace/fast:
 .PHONY : ReplaceSpace/fast
 
 #=============================================================================
+# Target rules for targets named UseStackAsQueue
+
+# Build rule for target.
+UseStackAsQueue: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 UseStackAsQueue
+.PHONY : UseStackAsQueue
+
+# fast build rule for target.
+UseStackAsQueue/fast:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/build
+.PHONY : UseStackAsQueue/fast
+
+#=============================================================================
 # Target rules for targets named test
 
 # Build rule for target.
@@ -323,6 +336,33 @@ TreeDepth/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/TreeDepth.dir/build.make CMakeFiles/TreeDepth.dir/TreeDepth/myTry.cpp.s
 .PHONY : TreeDepth/myTry.cpp.s
 
+UseStackAsQueue/myTry.o: UseStackAsQueue/myTry.cpp.o
+
+.PHONY : UseStackAsQueue/myTry.o
+
+# target to build an object file
+UseStackAsQueue/myTry.cpp.o:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/UseStackAsQueue/myTry.cpp.o
+.PHONY : UseStackAsQueue/myTry.cpp.o
+
+UseStackAsQueue/myTry.i: UseStackAsQueue/myTry.cpp.i
+
+.PHONY : UseStackAsQueue/myTry.i
+
+# target to preprocess a source file
+UseStackAsQueue/myTry.cpp.i:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/UseStackAsQueue/myTry.cpp.i
+.PHONY : UseStackAsQueue/myTry.cpp.i
+
+UseStackAsQueue/myTry.s: UseStackAsQueue/myTry.cpp.s
+
+.PHONY : UseStackAsQueue/myTry.s
+
+# target to generate assembly for a file
+UseStackAsQueue/myTry.cpp.s:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/UseStackAsQueue/myTry.cpp.s
+.PHONY : UseStackAsQueue/myTry.cpp.s
+
 test/test.o: test/test.cpp.o
 
 .PHONY : test/test.o
@@ -363,6 +403,7 @@ help:
 	@echo "... ArraySearch"
 	@echo "... PrintLinkedList"
 	@echo "... ReplaceSpace"
+	@echo "... UseStackAsQueue"
 	@echo "... test"
 	@echo "... ArraySaerch/myTry.o"
 	@echo "... ArraySaerch/myTry.i"
@@ -379,6 +420,9 @@ help:
 	@echo "... TreeDepth/myTry.o"
 	@echo "... TreeDepth/myTry.i"
 	@echo "... TreeDepth/myTry.s"
+	@echo "... UseStackAsQueue/myTry.o"
+	@echo "... UseStackAsQueue/myTry.i"
+	@echo "... UseStackAsQueue/myTry.s"
 	@echo "... test/test.o"
 	@echo "... test/test.i"
 	@echo "... test/test.s"

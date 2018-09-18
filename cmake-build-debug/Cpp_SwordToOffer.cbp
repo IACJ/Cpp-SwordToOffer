@@ -257,6 +257,50 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="UseStackAsQueue">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/UseStackAsQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 UseStackAsQueue"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UseStackAsQueue/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/UseStackAsQueue" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 UseStackAsQueue/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="test">
 				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
@@ -316,6 +360,9 @@
 		</Unit>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/TreeDepth/myTry.cpp">
 			<Option target="TreeDepth"/>
+		</Unit>
+		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/UseStackAsQueue/myTry.cpp">
+			<Option target="UseStackAsQueue"/>
 		</Unit>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/test/test.cpp">
 			<Option target="test"/>

@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/UseStackAsQueue/myTry.cpp
+iostream
+-
+stack
+-
+

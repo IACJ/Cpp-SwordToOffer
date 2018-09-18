@@ -55,5 +55,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ArraySearch.dir/DependInfo.cmake"
   "CMakeFiles/PrintLinkedList.dir/DependInfo.cmake"
   "CMakeFiles/ReplaceSpace.dir/DependInfo.cmake"
+  "CMakeFiles/UseStackAsQueue.dir/DependInfo.cmake"
   "CMakeFiles/test.dir/DependInfo.cmake"
   )

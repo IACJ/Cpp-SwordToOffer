@@ -250,13 +250,50 @@ clean: CMakeFiles/ReplaceSpace.dir/clean
 .PHONY : clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/UseStackAsQueue.dir
+
+# All Build rule for target.
+CMakeFiles/UseStackAsQueue.dir/all:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/depend
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target UseStackAsQueue"
+.PHONY : CMakeFiles/UseStackAsQueue.dir/all
+
+# Include target in all.
+all: CMakeFiles/UseStackAsQueue.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/UseStackAsQueue.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/UseStackAsQueue.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/UseStackAsQueue.dir/rule
+
+# Convenience name for target.
+UseStackAsQueue: CMakeFiles/UseStackAsQueue.dir/rule
+
+.PHONY : UseStackAsQueue
+
+# clean rule for target.
+CMakeFiles/UseStackAsQueue.dir/clean:
+	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/clean
+.PHONY : CMakeFiles/UseStackAsQueue.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/UseStackAsQueue.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/test.dir
 
 # All Build rule for target.
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.

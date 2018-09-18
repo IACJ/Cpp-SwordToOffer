@@ -15,3 +15,5 @@ add_executable(ReplaceSpace ReplaceSpace/myTry.cpp)
 add_executable(PrintLinkedList PrintLinkedList/myTry.cpp)
 
 add_executable(ReBuildBinaryTree ReBuildBinaryTree/myTry.cpp)
+
+add_executable(UseStackAsQueue UseStackAsQueue/myTry.cpp)
