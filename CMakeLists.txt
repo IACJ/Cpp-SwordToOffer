@@ -17,3 +17,7 @@ add_executable(PrintLinkedList PrintLinkedList/myTry.cpp)
 add_executable(ReBuildBinaryTree ReBuildBinaryTree/myTry.cpp)
 
 add_executable(UseStackAsQueue UseStackAsQueue/myTry.cpp)
+
+add_executable(MinOfrRotatedArrayNaive MinOfrRotatedArray/naive.cpp)
+
+add_executable(MinOfrRotatedArray MinOfrRotatedArray/myTry.cpp)

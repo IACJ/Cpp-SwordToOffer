@@ -5,3 +5,4 @@
 3. 从尾到头打印链表 - PrintLinkedList
 4. 重建二叉树 - ReBuildBinaryTree
 5. 用两个栈实现队列 - UseStackAsQueue
+6. 旋转数组的最小数字 - MinOfrRotatedArray

@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -77,6 +66,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -109,6 +109,32 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named MinOfrRotatedArrayNaive
+
+# Build rule for target.
+MinOfrRotatedArrayNaive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MinOfrRotatedArrayNaive
+.PHONY : MinOfrRotatedArrayNaive
+
+# fast build rule for target.
+MinOfrRotatedArrayNaive/fast:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/build
+.PHONY : MinOfrRotatedArrayNaive/fast
+
+#=============================================================================
+# Target rules for targets named MinOfrRotatedArray
+
+# Build rule for target.
+MinOfrRotatedArray: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 MinOfrRotatedArray
+.PHONY : MinOfrRotatedArray
+
+# fast build rule for target.
+MinOfrRotatedArray/fast:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/build
+.PHONY : MinOfrRotatedArray/fast
 
 #=============================================================================
 # Target rules for targets named ReBuildBinaryTree
@@ -227,6 +253,60 @@ ArraySaerch/myTry.s: ArraySaerch/myTry.cpp.s
 ArraySaerch/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/ArraySearch.dir/build.make CMakeFiles/ArraySearch.dir/ArraySaerch/myTry.cpp.s
 .PHONY : ArraySaerch/myTry.cpp.s
+
+MinOfrRotatedArray/myTry.o: MinOfrRotatedArray/myTry.cpp.o
+
+.PHONY : MinOfrRotatedArray/myTry.o
+
+# target to build an object file
+MinOfrRotatedArray/myTry.cpp.o:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/MinOfrRotatedArray/myTry.cpp.o
+.PHONY : MinOfrRotatedArray/myTry.cpp.o
+
+MinOfrRotatedArray/myTry.i: MinOfrRotatedArray/myTry.cpp.i
+
+.PHONY : MinOfrRotatedArray/myTry.i
+
+# target to preprocess a source file
+MinOfrRotatedArray/myTry.cpp.i:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/MinOfrRotatedArray/myTry.cpp.i
+.PHONY : MinOfrRotatedArray/myTry.cpp.i
+
+MinOfrRotatedArray/myTry.s: MinOfrRotatedArray/myTry.cpp.s
+
+.PHONY : MinOfrRotatedArray/myTry.s
+
+# target to generate assembly for a file
+MinOfrRotatedArray/myTry.cpp.s:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/MinOfrRotatedArray/myTry.cpp.s
+.PHONY : MinOfrRotatedArray/myTry.cpp.s
+
+MinOfrRotatedArray/naive.o: MinOfrRotatedArray/naive.cpp.o
+
+.PHONY : MinOfrRotatedArray/naive.o
+
+# target to build an object file
+MinOfrRotatedArray/naive.cpp.o:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/MinOfrRotatedArray/naive.cpp.o
+.PHONY : MinOfrRotatedArray/naive.cpp.o
+
+MinOfrRotatedArray/naive.i: MinOfrRotatedArray/naive.cpp.i
+
+.PHONY : MinOfrRotatedArray/naive.i
+
+# target to preprocess a source file
+MinOfrRotatedArray/naive.cpp.i:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/MinOfrRotatedArray/naive.cpp.i
+.PHONY : MinOfrRotatedArray/naive.cpp.i
+
+MinOfrRotatedArray/naive.s: MinOfrRotatedArray/naive.cpp.s
+
+.PHONY : MinOfrRotatedArray/naive.s
+
+# target to generate assembly for a file
+MinOfrRotatedArray/naive.cpp.s:
+	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/MinOfrRotatedArray/naive.cpp.s
+.PHONY : MinOfrRotatedArray/naive.cpp.s
 
 PrintLinkedList/myTry.o: PrintLinkedList/myTry.cpp.o
 
@@ -396,8 +476,10 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... MinOfrRotatedArrayNaive"
+	@echo "... MinOfrRotatedArray"
 	@echo "... ReBuildBinaryTree"
 	@echo "... TreeDepth"
 	@echo "... ArraySearch"
@@ -408,6 +490,12 @@ help:
 	@echo "... ArraySaerch/myTry.o"
 	@echo "... ArraySaerch/myTry.i"
 	@echo "... ArraySaerch/myTry.s"
+	@echo "... MinOfrRotatedArray/myTry.o"
+	@echo "... MinOfrRotatedArray/myTry.i"
+	@echo "... MinOfrRotatedArray/myTry.s"
+	@echo "... MinOfrRotatedArray/naive.o"
+	@echo "... MinOfrRotatedArray/naive.i"
+	@echo "... MinOfrRotatedArray/naive.s"
 	@echo "... PrintLinkedList/myTry.o"
 	@echo "... PrintLinkedList/myTry.i"
 	@echo "... PrintLinkedList/myTry.s"

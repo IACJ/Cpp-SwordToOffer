@@ -17,6 +17,16 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +37,89 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="edit_cache">
+			<Target title="MinOfrRotatedArrayNaive">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/MinOfrRotatedArrayNaive" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinOfrRotatedArrayNaive"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinOfrRotatedArrayNaive/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/MinOfrRotatedArrayNaive" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinOfrRotatedArrayNaive/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinOfrRotatedArray">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/MinOfrRotatedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinOfrRotatedArray"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MinOfrRotatedArray/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/MinOfrRotatedArray" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 MinOfrRotatedArray/fast"/>
 					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -348,6 +436,12 @@
 		</Build>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/ArraySaerch/myTry.cpp">
 			<Option target="ArraySearch"/>
+		</Unit>
+		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/MinOfrRotatedArray/myTry.cpp">
+			<Option target="MinOfrRotatedArray"/>
+		</Unit>
+		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/MinOfrRotatedArray/naive.cpp">
+			<Option target="MinOfrRotatedArrayNaive"/>
 		</Unit>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/PrintLinkedList/myTry.cpp">
 			<Option target="PrintLinkedList"/>
