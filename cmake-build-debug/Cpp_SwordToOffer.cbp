@@ -17,6 +17,16 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="edit_cache">
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
 				<Option type="4"/>
@@ -27,11 +37,133 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="rebuild_cache">
+			<Target title="PrintLinkedList">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/PrintLinkedList" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option type="4"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintLinkedList"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PrintLinkedList/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/PrintLinkedList" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintLinkedList/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fibonacci">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Fibonacci" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fibonacci"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Fibonacci/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Fibonacci" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 Fibonacci/fast"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReBuildBinaryTree">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/ReBuildBinaryTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReBuildBinaryTree"/>
+					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ReBuildBinaryTree/fast">
+				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/ReBuildBinaryTree" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReBuildBinaryTree/fast"/>
 					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -125,50 +257,6 @@
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="ReBuildBinaryTree">
-				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/ReBuildBinaryTree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReBuildBinaryTree"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ReBuildBinaryTree/fast">
-				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/ReBuildBinaryTree" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReBuildBinaryTree/fast"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="TreeDepth">
 				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/TreeDepth" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
@@ -252,50 +340,6 @@
 				</Compiler>
 				<MakeCommands>
 					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 ArraySearch/fast"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PrintLinkedList">
-				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/PrintLinkedList" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintLinkedList"/>
-					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="PrintLinkedList/fast">
-				<Option output="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/PrintLinkedList" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 PrintLinkedList/fast"/>
 					<CompileFile command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="/usr/local/bin/gmake -j4 -f &quot;/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -436,6 +480,9 @@
 		</Build>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/ArraySaerch/myTry.cpp">
 			<Option target="ArraySearch"/>
+		</Unit>
+		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/Fibonacci/myTry.cpp">
+			<Option target="Fibonacci"/>
 		</Unit>
 		<Unit filename="/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/MinOfrRotatedArray/myTry.cpp">
 			<Option target="MinOfrRotatedArray"/>

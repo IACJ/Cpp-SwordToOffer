@@ -56,17 +56,6 @@ CMAKE_BINARY_DIR = /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-d
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -77,6 +66,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -111,6 +111,45 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named PrintLinkedList
+
+# Build rule for target.
+PrintLinkedList: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 PrintLinkedList
+.PHONY : PrintLinkedList
+
+# fast build rule for target.
+PrintLinkedList/fast:
+	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/build
+.PHONY : PrintLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named Fibonacci
+
+# Build rule for target.
+Fibonacci: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Fibonacci
+.PHONY : Fibonacci
+
+# fast build rule for target.
+Fibonacci/fast:
+	$(MAKE) -f CMakeFiles/Fibonacci.dir/build.make CMakeFiles/Fibonacci.dir/build
+.PHONY : Fibonacci/fast
+
+#=============================================================================
+# Target rules for targets named ReBuildBinaryTree
+
+# Build rule for target.
+ReBuildBinaryTree: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ReBuildBinaryTree
+.PHONY : ReBuildBinaryTree
+
+# fast build rule for target.
+ReBuildBinaryTree/fast:
+	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/build
+.PHONY : ReBuildBinaryTree/fast
+
+#=============================================================================
 # Target rules for targets named MinOfrRotatedArrayNaive
 
 # Build rule for target.
@@ -137,19 +176,6 @@ MinOfrRotatedArray/fast:
 .PHONY : MinOfrRotatedArray/fast
 
 #=============================================================================
-# Target rules for targets named ReBuildBinaryTree
-
-# Build rule for target.
-ReBuildBinaryTree: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ReBuildBinaryTree
-.PHONY : ReBuildBinaryTree
-
-# fast build rule for target.
-ReBuildBinaryTree/fast:
-	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/build
-.PHONY : ReBuildBinaryTree/fast
-
-#=============================================================================
 # Target rules for targets named TreeDepth
 
 # Build rule for target.
@@ -174,19 +200,6 @@ ArraySearch: cmake_check_build_system
 ArraySearch/fast:
 	$(MAKE) -f CMakeFiles/ArraySearch.dir/build.make CMakeFiles/ArraySearch.dir/build
 .PHONY : ArraySearch/fast
-
-#=============================================================================
-# Target rules for targets named PrintLinkedList
-
-# Build rule for target.
-PrintLinkedList: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 PrintLinkedList
-.PHONY : PrintLinkedList
-
-# fast build rule for target.
-PrintLinkedList/fast:
-	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/build
-.PHONY : PrintLinkedList/fast
 
 #=============================================================================
 # Target rules for targets named ReplaceSpace
@@ -253,6 +266,33 @@ ArraySaerch/myTry.s: ArraySaerch/myTry.cpp.s
 ArraySaerch/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/ArraySearch.dir/build.make CMakeFiles/ArraySearch.dir/ArraySaerch/myTry.cpp.s
 .PHONY : ArraySaerch/myTry.cpp.s
+
+Fibonacci/myTry.o: Fibonacci/myTry.cpp.o
+
+.PHONY : Fibonacci/myTry.o
+
+# target to build an object file
+Fibonacci/myTry.cpp.o:
+	$(MAKE) -f CMakeFiles/Fibonacci.dir/build.make CMakeFiles/Fibonacci.dir/Fibonacci/myTry.cpp.o
+.PHONY : Fibonacci/myTry.cpp.o
+
+Fibonacci/myTry.i: Fibonacci/myTry.cpp.i
+
+.PHONY : Fibonacci/myTry.i
+
+# target to preprocess a source file
+Fibonacci/myTry.cpp.i:
+	$(MAKE) -f CMakeFiles/Fibonacci.dir/build.make CMakeFiles/Fibonacci.dir/Fibonacci/myTry.cpp.i
+.PHONY : Fibonacci/myTry.cpp.i
+
+Fibonacci/myTry.s: Fibonacci/myTry.cpp.s
+
+.PHONY : Fibonacci/myTry.s
+
+# target to generate assembly for a file
+Fibonacci/myTry.cpp.s:
+	$(MAKE) -f CMakeFiles/Fibonacci.dir/build.make CMakeFiles/Fibonacci.dir/Fibonacci/myTry.cpp.s
+.PHONY : Fibonacci/myTry.cpp.s
 
 MinOfrRotatedArray/myTry.o: MinOfrRotatedArray/myTry.cpp.o
 
@@ -476,20 +516,24 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
-	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... PrintLinkedList"
+	@echo "... Fibonacci"
+	@echo "... ReBuildBinaryTree"
 	@echo "... MinOfrRotatedArrayNaive"
 	@echo "... MinOfrRotatedArray"
-	@echo "... ReBuildBinaryTree"
 	@echo "... TreeDepth"
 	@echo "... ArraySearch"
-	@echo "... PrintLinkedList"
 	@echo "... ReplaceSpace"
 	@echo "... UseStackAsQueue"
 	@echo "... test"
 	@echo "... ArraySaerch/myTry.o"
 	@echo "... ArraySaerch/myTry.i"
 	@echo "... ArraySaerch/myTry.s"
+	@echo "... Fibonacci/myTry.o"
+	@echo "... Fibonacci/myTry.i"
+	@echo "... Fibonacci/myTry.s"
 	@echo "... MinOfrRotatedArray/myTry.o"
 	@echo "... MinOfrRotatedArray/myTry.i"
 	@echo "... MinOfrRotatedArray/myTry.s"
