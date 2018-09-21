@@ -202,6 +202,19 @@ ArraySearch/fast:
 .PHONY : ArraySearch/fast
 
 #=============================================================================
+# Target rules for targets named JumpFloor
+
+# Build rule for target.
+JumpFloor: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JumpFloor
+.PHONY : JumpFloor
+
+# fast build rule for target.
+JumpFloor/fast:
+	$(MAKE) -f CMakeFiles/JumpFloor.dir/build.make CMakeFiles/JumpFloor.dir/build
+.PHONY : JumpFloor/fast
+
+#=============================================================================
 # Target rules for targets named ReplaceSpace
 
 # Build rule for target.
@@ -293,6 +306,33 @@ Fibonacci/myTry.s: Fibonacci/myTry.cpp.s
 Fibonacci/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/Fibonacci.dir/build.make CMakeFiles/Fibonacci.dir/Fibonacci/myTry.cpp.s
 .PHONY : Fibonacci/myTry.cpp.s
+
+JumpFloor/MyTry.o: JumpFloor/MyTry.cpp.o
+
+.PHONY : JumpFloor/MyTry.o
+
+# target to build an object file
+JumpFloor/MyTry.cpp.o:
+	$(MAKE) -f CMakeFiles/JumpFloor.dir/build.make CMakeFiles/JumpFloor.dir/JumpFloor/MyTry.cpp.o
+.PHONY : JumpFloor/MyTry.cpp.o
+
+JumpFloor/MyTry.i: JumpFloor/MyTry.cpp.i
+
+.PHONY : JumpFloor/MyTry.i
+
+# target to preprocess a source file
+JumpFloor/MyTry.cpp.i:
+	$(MAKE) -f CMakeFiles/JumpFloor.dir/build.make CMakeFiles/JumpFloor.dir/JumpFloor/MyTry.cpp.i
+.PHONY : JumpFloor/MyTry.cpp.i
+
+JumpFloor/MyTry.s: JumpFloor/MyTry.cpp.s
+
+.PHONY : JumpFloor/MyTry.s
+
+# target to generate assembly for a file
+JumpFloor/MyTry.cpp.s:
+	$(MAKE) -f CMakeFiles/JumpFloor.dir/build.make CMakeFiles/JumpFloor.dir/JumpFloor/MyTry.cpp.s
+.PHONY : JumpFloor/MyTry.cpp.s
 
 MinOfrRotatedArray/myTry.o: MinOfrRotatedArray/myTry.cpp.o
 
@@ -517,7 +557,6 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... PrintLinkedList"
 	@echo "... Fibonacci"
 	@echo "... ReBuildBinaryTree"
@@ -525,6 +564,8 @@ help:
 	@echo "... MinOfrRotatedArray"
 	@echo "... TreeDepth"
 	@echo "... ArraySearch"
+	@echo "... edit_cache"
+	@echo "... JumpFloor"
 	@echo "... ReplaceSpace"
 	@echo "... UseStackAsQueue"
 	@echo "... test"
@@ -534,6 +575,9 @@ help:
 	@echo "... Fibonacci/myTry.o"
 	@echo "... Fibonacci/myTry.i"
 	@echo "... Fibonacci/myTry.s"
+	@echo "... JumpFloor/MyTry.o"
+	@echo "... JumpFloor/MyTry.i"
+	@echo "... JumpFloor/MyTry.s"
 	@echo "... MinOfrRotatedArray/myTry.o"
 	@echo "... MinOfrRotatedArray/myTry.i"
 	@echo "... MinOfrRotatedArray/myTry.s"

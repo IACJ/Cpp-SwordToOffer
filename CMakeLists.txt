@@ -22,3 +22,5 @@ add_executable(MinOfrRotatedArrayNaive MinOfrRotatedArray/naive.cpp)
 add_executable(MinOfrRotatedArray MinOfrRotatedArray/myTry.cpp)
 
 add_executable(Fibonacci Fibonacci/myTry.cpp)
+
+add_executable(JumpFloor JumpFloor/MyTry.cpp)
