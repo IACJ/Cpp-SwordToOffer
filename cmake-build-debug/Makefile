@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named JumpFloorII
+
+# Build rule for target.
+JumpFloorII: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 JumpFloorII
+.PHONY : JumpFloorII
+
+# fast build rule for target.
+JumpFloorII/fast:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/build
+.PHONY : JumpFloorII/fast
+
+#=============================================================================
 # Target rules for targets named PrintLinkedList
 
 # Build rule for target.
@@ -333,6 +346,33 @@ JumpFloor/MyTry.s: JumpFloor/MyTry.cpp.s
 JumpFloor/MyTry.cpp.s:
 	$(MAKE) -f CMakeFiles/JumpFloor.dir/build.make CMakeFiles/JumpFloor.dir/JumpFloor/MyTry.cpp.s
 .PHONY : JumpFloor/MyTry.cpp.s
+
+JumpFloorII/mytry.o: JumpFloorII/mytry.cpp.o
+
+.PHONY : JumpFloorII/mytry.o
+
+# target to build an object file
+JumpFloorII/mytry.cpp.o:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/JumpFloorII/mytry.cpp.o
+.PHONY : JumpFloorII/mytry.cpp.o
+
+JumpFloorII/mytry.i: JumpFloorII/mytry.cpp.i
+
+.PHONY : JumpFloorII/mytry.i
+
+# target to preprocess a source file
+JumpFloorII/mytry.cpp.i:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/JumpFloorII/mytry.cpp.i
+.PHONY : JumpFloorII/mytry.cpp.i
+
+JumpFloorII/mytry.s: JumpFloorII/mytry.cpp.s
+
+.PHONY : JumpFloorII/mytry.s
+
+# target to generate assembly for a file
+JumpFloorII/mytry.cpp.s:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/JumpFloorII/mytry.cpp.s
+.PHONY : JumpFloorII/mytry.cpp.s
 
 MinOfrRotatedArray/myTry.o: MinOfrRotatedArray/myTry.cpp.o
 
@@ -557,6 +597,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... JumpFloorII"
 	@echo "... PrintLinkedList"
 	@echo "... Fibonacci"
 	@echo "... ReBuildBinaryTree"
@@ -578,6 +619,9 @@ help:
 	@echo "... JumpFloor/MyTry.o"
 	@echo "... JumpFloor/MyTry.i"
 	@echo "... JumpFloor/MyTry.s"
+	@echo "... JumpFloorII/mytry.o"
+	@echo "... JumpFloorII/mytry.i"
+	@echo "... JumpFloorII/mytry.s"
 	@echo "... MinOfrRotatedArray/myTry.o"
 	@echo "... MinOfrRotatedArray/myTry.i"
 	@echo "... MinOfrRotatedArray/myTry.s"

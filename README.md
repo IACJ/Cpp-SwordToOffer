@@ -8,3 +8,4 @@
 6. 旋转数组的最小数字 - MinOfrRotatedArray
 7. 斐波那契额数列 - Fibonacci
 8. 跳台阶 - JumpFloor
+9. 变态跳台阶 - JumpFloorII

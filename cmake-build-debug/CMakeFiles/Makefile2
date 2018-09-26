@@ -65,13 +65,50 @@ CMAKE_SOURCE_DIR = /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer
 CMAKE_BINARY_DIR = /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug
 
 #=============================================================================
+# Target rules for target CMakeFiles/JumpFloorII.dir
+
+# All Build rule for target.
+CMakeFiles/JumpFloorII.dir/all:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/depend
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target JumpFloorII"
+.PHONY : CMakeFiles/JumpFloorII.dir/all
+
+# Include target in all.
+all: CMakeFiles/JumpFloorII.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/JumpFloorII.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/JumpFloorII.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/JumpFloorII.dir/rule
+
+# Convenience name for target.
+JumpFloorII: CMakeFiles/JumpFloorII.dir/rule
+
+.PHONY : JumpFloorII
+
+# clean rule for target.
+CMakeFiles/JumpFloorII.dir/clean:
+	$(MAKE) -f CMakeFiles/JumpFloorII.dir/build.make CMakeFiles/JumpFloorII.dir/clean
+.PHONY : CMakeFiles/JumpFloorII.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/JumpFloorII.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/PrintLinkedList.dir
 
 # All Build rule for target.
 CMakeFiles/PrintLinkedList.dir/all:
 	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/depend
 	$(MAKE) -f CMakeFiles/PrintLinkedList.dir/build.make CMakeFiles/PrintLinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target PrintLinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target PrintLinkedList"
 .PHONY : CMakeFiles/PrintLinkedList.dir/all
 
 # Include target in all.
@@ -145,7 +182,7 @@ clean: CMakeFiles/Fibonacci.dir/clean
 CMakeFiles/ReBuildBinaryTree.dir/all:
 	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/depend
 	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=13,14 "Built target ReBuildBinaryTree"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ReBuildBinaryTree"
 .PHONY : CMakeFiles/ReBuildBinaryTree.dir/all
 
 # Include target in all.
@@ -182,7 +219,7 @@ clean: CMakeFiles/ReBuildBinaryTree.dir/clean
 CMakeFiles/MinOfrRotatedArrayNaive.dir/all:
 	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/depend
 	$(MAKE) -f CMakeFiles/MinOfrRotatedArrayNaive.dir/build.make CMakeFiles/MinOfrRotatedArrayNaive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target MinOfrRotatedArrayNaive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=11,12 "Built target MinOfrRotatedArrayNaive"
 .PHONY : CMakeFiles/MinOfrRotatedArrayNaive.dir/all
 
 # Include target in all.
@@ -219,7 +256,7 @@ clean: CMakeFiles/MinOfrRotatedArrayNaive.dir/clean
 CMakeFiles/MinOfrRotatedArray.dir/all:
 	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/depend
 	$(MAKE) -f CMakeFiles/MinOfrRotatedArray.dir/build.make CMakeFiles/MinOfrRotatedArray.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=7,8 "Built target MinOfrRotatedArray"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=9,10 "Built target MinOfrRotatedArray"
 .PHONY : CMakeFiles/MinOfrRotatedArray.dir/all
 
 # Include target in all.
@@ -256,7 +293,7 @@ clean: CMakeFiles/MinOfrRotatedArray.dir/clean
 CMakeFiles/TreeDepth.dir/all:
 	$(MAKE) -f CMakeFiles/TreeDepth.dir/build.make CMakeFiles/TreeDepth.dir/depend
 	$(MAKE) -f CMakeFiles/TreeDepth.dir/build.make CMakeFiles/TreeDepth.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target TreeDepth"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target TreeDepth"
 .PHONY : CMakeFiles/TreeDepth.dir/all
 
 # Include target in all.
@@ -367,7 +404,7 @@ clean: CMakeFiles/JumpFloor.dir/clean
 CMakeFiles/ReplaceSpace.dir/all:
 	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/depend
 	$(MAKE) -f CMakeFiles/ReplaceSpace.dir/build.make CMakeFiles/ReplaceSpace.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=15,16 "Built target ReplaceSpace"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=17,18 "Built target ReplaceSpace"
 .PHONY : CMakeFiles/ReplaceSpace.dir/all
 
 # Include target in all.
@@ -404,7 +441,7 @@ clean: CMakeFiles/ReplaceSpace.dir/clean
 CMakeFiles/UseStackAsQueue.dir/all:
 	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/depend
 	$(MAKE) -f CMakeFiles/UseStackAsQueue.dir/build.make CMakeFiles/UseStackAsQueue.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=19,20 "Built target UseStackAsQueue"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target UseStackAsQueue"
 .PHONY : CMakeFiles/UseStackAsQueue.dir/all
 
 # Include target in all.
@@ -441,7 +478,7 @@ clean: CMakeFiles/UseStackAsQueue.dir/clean
 CMakeFiles/test.dir/all:
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/depend
 	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=21,22 "Built target test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/ackleyjia/CLionProjects/Cpp-SwordToOffer/cmake-build-debug/CMakeFiles --progress-num=23,24 "Built target test"
 .PHONY : CMakeFiles/test.dir/all
 
 # Include target in all.
