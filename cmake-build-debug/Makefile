@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named RectCover
+
+# Build rule for target.
+RectCover: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 RectCover
+.PHONY : RectCover
+
+# fast build rule for target.
+RectCover/fast:
+	$(MAKE) -f CMakeFiles/RectCover.dir/build.make CMakeFiles/RectCover.dir/build
+.PHONY : RectCover/fast
+
+#=============================================================================
 # Target rules for targets named JumpFloorII
 
 # Build rule for target.
@@ -482,6 +495,33 @@ ReBuildBinaryTree/myTry.cpp.s:
 	$(MAKE) -f CMakeFiles/ReBuildBinaryTree.dir/build.make CMakeFiles/ReBuildBinaryTree.dir/ReBuildBinaryTree/myTry.cpp.s
 .PHONY : ReBuildBinaryTree/myTry.cpp.s
 
+RectCover/mytry.o: RectCover/mytry.cpp.o
+
+.PHONY : RectCover/mytry.o
+
+# target to build an object file
+RectCover/mytry.cpp.o:
+	$(MAKE) -f CMakeFiles/RectCover.dir/build.make CMakeFiles/RectCover.dir/RectCover/mytry.cpp.o
+.PHONY : RectCover/mytry.cpp.o
+
+RectCover/mytry.i: RectCover/mytry.cpp.i
+
+.PHONY : RectCover/mytry.i
+
+# target to preprocess a source file
+RectCover/mytry.cpp.i:
+	$(MAKE) -f CMakeFiles/RectCover.dir/build.make CMakeFiles/RectCover.dir/RectCover/mytry.cpp.i
+.PHONY : RectCover/mytry.cpp.i
+
+RectCover/mytry.s: RectCover/mytry.cpp.s
+
+.PHONY : RectCover/mytry.s
+
+# target to generate assembly for a file
+RectCover/mytry.cpp.s:
+	$(MAKE) -f CMakeFiles/RectCover.dir/build.make CMakeFiles/RectCover.dir/RectCover/mytry.cpp.s
+.PHONY : RectCover/mytry.cpp.s
+
 ReplaceSpace/myTry.o: ReplaceSpace/myTry.cpp.o
 
 .PHONY : ReplaceSpace/myTry.o
@@ -596,6 +636,7 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... RectCover"
 	@echo "... rebuild_cache"
 	@echo "... JumpFloorII"
 	@echo "... PrintLinkedList"
@@ -634,6 +675,9 @@ help:
 	@echo "... ReBuildBinaryTree/myTry.o"
 	@echo "... ReBuildBinaryTree/myTry.i"
 	@echo "... ReBuildBinaryTree/myTry.s"
+	@echo "... RectCover/mytry.o"
+	@echo "... RectCover/mytry.i"
+	@echo "... RectCover/mytry.s"
 	@echo "... ReplaceSpace/myTry.o"
 	@echo "... ReplaceSpace/myTry.i"
 	@echo "... ReplaceSpace/myTry.s"

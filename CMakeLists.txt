@@ -26,3 +26,5 @@ add_executable(Fibonacci Fibonacci/myTry.cpp)
 add_executable(JumpFloor JumpFloor/MyTry.cpp)
 
 add_executable(JumpFloorII JumpFloorII/mytry.cpp)
+
+add_executable(RectCover RectCover/mytry.cpp)
